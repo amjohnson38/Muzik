@@ -91,7 +91,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <div className="App-title">Muzik
+                <div className="App-title">Music
                 </div>
                 <FormGroup>
                     <InputGroup>
