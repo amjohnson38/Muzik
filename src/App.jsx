@@ -3,11 +3,8 @@ import './App.css';
 import { FormGroup, FormControl, InputGroup, Glyphicon } from 'react-bootstrap';
 import Profile from './Profile';
 import Gallery from './Gallery';
-<<<<<<< HEAD
 import soundwave from './images/soundwave.png'
 
-=======
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 
 class App extends Component {
     constructor(props) {
@@ -79,11 +76,7 @@ class App extends Component {
                         .then(response => response.json())
                         .then(json => {
                             if (json.hasOwnProperty('error')) {
-<<<<<<< HEAD
                                 console.log({ json });
-=======
-                                console.log({json});
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
                                 this.getToken();
 
                             } else {
@@ -101,13 +94,9 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="App-title">Muzik
-<<<<<<< HEAD
                 <img className="sound-wave" src={soundwave} alt={"soundwave"} />
                 </div>
 
-=======
-                </div>
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
                 <FormGroup>
                     <InputGroup>
                         <FormControl
@@ -129,7 +118,6 @@ class App extends Component {
                         </InputGroup.Addon>
                     </InputGroup>
                 </FormGroup>
-<<<<<<< HEAD
 
                 {
                     this.state.artist !== null
@@ -150,25 +138,6 @@ class App extends Component {
 
                         </div>
             
-=======
-                {
-                    this.state.artist !== null
-                        ?
-                        <div>
-                            <Profile
-                                artist={this.state.artist}
-                            />
-                            <div>
-                                <Gallery
-                                tracks={this.state.tracks}
-                                />
-                             </div>
-                        </div>
-                        : <div></div>
-                }
-
-            </div>
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
         )
     }
 }

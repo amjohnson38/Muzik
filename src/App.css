@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 
 
 body{
     background: #000;
     height: 100vh;
-=======
-body {
-    background-image:url("http://res.cloudinary.com/angiemjohnson/image/upload/v1501686838/the-speaker-grill-2184439_1920_nytqmu.jpg");
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 }
 
 
@@ -18,7 +13,6 @@ body {
     font-size:24px;
 }
 
-<<<<<<< HEAD
 .App-title {
     font-family: 'Courgette', cursive;
     font-size: 4.5em;
@@ -37,21 +31,12 @@ body {
    margin-top: 30px;
    border: 5px solid #3cc94b;  
    box-shadow: 0px 3px 20px 3px rgba(144, 142, 142, 0.6);
-=======
-.App-title{
-    font-size: 50px;
-    color: #fff;
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 }
 
 /*Profile Styles*/
 .profile {
     display:flex;
-<<<<<<< HEAD
     justify-content: center;   
-=======
-    justify-content: center;
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 }
 
 .profile-info {
@@ -65,10 +50,7 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-<<<<<<< HEAD
     margin-top: 20px;
-=======
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
     border: 3px solid #fff;
     border-radius: 75px;
     object-fit: cover;
@@ -84,11 +66,7 @@ body {
 
 /* Gallery Styles */
 .tracks-display {
-<<<<<<< HEAD
     margin-top: 20px;    
-=======
-    margin-top: 20px;
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 }
 
 .track {
@@ -158,8 +136,4 @@ padding: 5px;
     to {
         opacity: 0.8;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-<<<<<<< HEAD
 import FontAwesome from 'react-fontawesome';
-=======
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
 
 class Gallery extends Component {
     constructor(props) {
@@ -37,7 +34,7 @@ class Gallery extends Component {
                 audio.play();
                 this.setState({
                     playing: true,
-                    playingUrl: previewUrl,
+           playingUrl: previewUrl,
                     audio
                 })
             }
@@ -67,13 +64,8 @@ class Gallery extends Component {
                                 <div className="track-play-inner">
                                     {
                                         this.state.playingUrl === track.preview_url
-<<<<<<< HEAD
                                         ? <span>&#9724;</span>
                                         : <span>&#9658;</span>
-=======
-                                        ? <span>| |</span>
-                                        : <span>&#9654;</span>
->>>>>>> 2a92e82d6ca0401c921f50675a0145d5fd583421
                                     }
                                 </div>
                             </div>
